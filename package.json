@@ -4,8 +4,15 @@
   "description": "dwp-bdd-framework",
   "main": "cucumber.conf.js",
   "dependencies": {
+    "allure": "0.0.0",
+    "chai-smoothie": "^0.3.2",
     "cucumber-js-glue": "^1.4.0",
     "cucumber-mink": "^1.8.0",
+    "nightwatch": "^0.9.19",
+    "nightwatch-cucumber": "^9.0.0",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "webdriverio": "^4.10.1",
+    "webdriverio-cucumber-js": "^1.1.5",
     "xvfb": "^0.2.3"
   },
   "devDependencies": {
@@ -15,8 +22,8 @@
     "cucumber": "^2.3.1",
     "gulp": "^3.9.1",
     "gulp-angular-protractor": "^1.0.0",
-    "protractor": "^5.1.1",
-    "protractor-cucumber-framework": "^3.1.0",
+    "protractor": "^5.3.0",
+    "protractor-cucumber-framework": "^3.1.2",
     "selenium-cucumber-js": "^1.5.11"
   },
   "scripts": {
@@ -26,6 +33,6 @@
     "protractor",
     "cucumber.js"
   ],
-  "author": "MalloryM",
+  "author": "Kwame Akuffo",
   "license": "MIT"
 }

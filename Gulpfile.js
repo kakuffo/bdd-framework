@@ -1,6 +1,3 @@
-/*jshint node: true, camelcase: false*/
-/*global require: true*/
-
 'use strict';
 
 var gulp = require('gulp'),

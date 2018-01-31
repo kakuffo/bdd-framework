@@ -1,66 +1,19 @@
 [
   {
     "description": "Protractor and Cucumber Test",
-    "assertions": [
-      {
-        "passed": true
-      },
-      {
-        "passed": true
-      },
-      {
-        "passed": true
-      },
-      {
-        "passed": true
-      }
-    ],
+    "assertions": [],
     "events": [
       {
         "emitterEvent": "testPass",
-        "name": "Given I go to \"https://angularjs.org/\"",
+        "name": "Given I go to 'https://www.bbc.co.uk'",
         "category": "Angular Task List: Protractor and Cucumber Test",
-        "durationMillis": 2528,
         "sourceLocation": {
           "filePath": "/Users/kwameakuffo/workspace/dwp-bdd-framework/features/sprint/test.feature",
           "line": 8,
           "column": 1
         }
-      },
-      {
-        "emitterEvent": "testPass",
-        "name": "When I add \"Be Awesome\" in the task field",
-        "category": "Angular Task List: Protractor and Cucumber Test",
-        "durationMillis": 1,
-        "sourceLocation": {
-          "filePath": "/Users/kwameakuffo/workspace/dwp-bdd-framework/features/sprint/test.feature",
-          "line": 9,
-          "column": 1
-        }
-      },
-      {
-        "emitterEvent": "testPass",
-        "name": "And I click the add button",
-        "category": "Angular Task List: Protractor and Cucumber Test",
-        "durationMillis": 1,
-        "sourceLocation": {
-          "filePath": "/Users/kwameakuffo/workspace/dwp-bdd-framework/features/sprint/test.feature",
-          "line": 10,
-          "column": 1
-        }
-      },
-      {
-        "emitterEvent": "testPass",
-        "name": "Then I should see my new task in the list",
-        "category": "Angular Task List: Protractor and Cucumber Test",
-        "durationMillis": 396,
-        "sourceLocation": {
-          "filePath": "/Users/kwameakuffo/workspace/dwp-bdd-framework/features/sprint/test.feature",
-          "line": 11,
-          "column": 1
-        }
       }
     ],
-    "duration": 2926
+    "duration": null
   }
 ]
